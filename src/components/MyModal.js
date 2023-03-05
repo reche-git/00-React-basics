@@ -77,7 +77,12 @@ export default function MyModal() {
           </ul>
           <Typography>
             It is highly recomended that you open the repository for this
-            project at: PONER LINK
+            project at:{" "}
+            <a
+              href="https://github.com/reche-git/00-React-basics"
+              rel="noreferrer"
+              target="_blank"
+            >Github</a>
           </Typography>
           <MyModalChild />
         </Box>
